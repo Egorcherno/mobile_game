@@ -11,6 +11,8 @@ from kivy.uix.widget import Widget
 # Экран (объект класса Screen) - это виджет типа "макет" (Screen - наследник класса RelativeLayout).
 # ScreenManager - это особый виджет, который делает видимым один из прописанных в нём экранов.
 
+#Егор это изменение Егора
+
 class FirstScr(Screen):
     def __init__(self, name='first'):
         super().__init__(name=name) # имя экрана должно передаваться конструктору класса Screen
