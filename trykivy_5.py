@@ -21,7 +21,7 @@ class FirstScr(Screen):
         btn.pos = (720,0)
         label.add_widget(btn) # экран - это виджет, на котором могут создаваться все другие (потомки)
 
-        txt = Label(text = '**стук в дверь** Откройте ,полиция')
+        txt = Label(text = '**стук в дверь** Откройте ,Полиция')
         txt.pos = (300,400)
         label.add_widget(txt)
         self.popit = Popup(content=Label(text=''),
